@@ -11,5 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
+        inittViews()
+    }
+
+    private fun inittViews() {
+        setRVAdapter()
+    }
+
+    private fun setRVAdapter() {
+        TODO("Not yet implemented")
     }
 }
